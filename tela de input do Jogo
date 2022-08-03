@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="./css/reset.css">
+  <link rel="stylesheet" href="./css/login.css">
+
+  <script defer src="./jascript/login.js"></script>
+
+  <title>Tela de INPUT | Entrar</title>
+</head>
+<body>
+  
+  <form class="login-form">
+
+    <div class="login__header">
+      <h1>Jogo da cobrinha</h1>
+      <img src="./IMAGENS/cobrinha.jpg" width="450"  alt="100">
+      
+
+      <style>
+        body{
+           background-color: rgb(220, 228, 228);
+           color:rgb(115, 255, 0);
+           font:normal 20px Times New Roman;
+        }   
+        h1{ margin: 0;
+          padding: 0;
+          box-sizing: border-box;
+            list-style: none;
+            border: none;
+          font-family: 'Roboto', cursive;
+}
+    
+          
+       </style>
+    </div>
+
+
+    <input type="text" placeholder="nome" class="login__input">
+    <button type="submit" class="login__button" >Jogar</button>
+
+  </form>
+
+</body>
+</html>
